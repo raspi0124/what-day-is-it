@@ -44,3 +44,22 @@ if( $weekno == 2 and  $isbweek == 2 ){
   echo "";
 }
 
+if( $weekno == 2 and  $isbweek == 3 ){
+  echo "Today is Day 8,";
+} else {
+  echo "";
+}
+
+if( $weekno == 2 and  $isbweek == 4 ){
+  echo "Today is Day 9,";
+} else {
+  echo "";
+}
+
+if( $weekno == 2 and  $isbweek == 5 ){
+  echo "Today is Day 10,";
+} else {
+  echo "";
+}
+
+
