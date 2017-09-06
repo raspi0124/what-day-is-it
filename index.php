@@ -2,6 +2,23 @@
 $weekno = date('w');
 $isbweek = "1";
 
+$yyy = 2017;
+$mmm = 9;
+$ddd = 4;
+
+//計算したい過去の日付
+  $mk1 = mktime(0,0,0,$mmm,$ddd,$yyy);
+
+//今日
+  $mk2 = mktime(0,0,0,date('n'),date('j'),date('Y'));
+
+//差を一日の秒数で割る　->　日数となる
+  $sa = ($mk2-$mk1) / (60*60*24);
+
+
+
+// $sa=day
+
 if( $weekno == 1 and  $isbweek == 1 ){
   echo "Today is Day 1,";
 }else {
