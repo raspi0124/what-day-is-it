@@ -2,9 +2,9 @@
 $weekno = date('w');
 $isbweek = "1";
 
-$yyy = 2017;
-$mmm = 9;
-$ddd = 4;
+$yyy = 2018;
+$mmm = 1;
+$ddd = 31;
 
 //計算したい過去の日付
   $mk1 = mktime(0,0,0,$mmm,$ddd,$yyy);
