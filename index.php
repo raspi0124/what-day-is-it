@@ -62,10 +62,7 @@ $ddd = 31;
 
 //差を一日の秒数で割る　->　日数となる
 //2018,01,31ー2018,02,08 ÷ 86400 =
-  $sa = ($mk2-$mk1) / (60*60*24); //aaa
-echo $sa;
-  echo "<br>";
-  echo "上が差";
+  $sa = ($mk2-$mk1) / (60*60*24); 
   
   //$sa=day
 
@@ -84,9 +81,7 @@ $isbweek = "2";
 
 }
 
-  echo $isbweek;
-    echo "<br>";
-  echo "上がisbweek";
+
 // $sa=day
 
 if( $weekno == 1 and  $isbweek == 1 ){
