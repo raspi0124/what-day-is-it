@@ -64,27 +64,28 @@ $ddd = 31;
 //2018,01,31ー2018,02,08 ÷ 86400 =
   $sa = ($mk2-$mk1) / (60*60*24); //aaa
 echo $sa;
+  echo "<br>";
   echo "上が差";
   
   //$sa=day
 
 $is1 = array("0","1","2","3","4","5","6");
-
-$sa7 = $sa % 7;
-if ( $sa7 = $is1 ){
+  
+if ( $sa != $is1 ){
 
 $isbweek = "1";
 
 }
 
 
-if ( $sa7 != $is1 ){
+if ( $sa7 = $is1 ){
 
 $isbweek = "2";
 
 }
 
   echo $isbweek;
+    echo "<br>";
   echo "上がisbweek";
 // $sa=day
 
