@@ -61,8 +61,11 @@ $ddd = 31;
 
 
 //差を一日の秒数で割る　->　日数となる
-$sa = ($mk2-$mk1) / (60*60*24); //aaa
-
+//2018,01,31ー2018,02,08 ÷ 86400 =
+  $sa = ($mk2-$mk1) / (60*60*24); //aaa
+echo $sa;
+  echo "上が差";
+  
   //$sa=day
 
 $is1 = array("0","1","2","3","4","5","6");
@@ -74,12 +77,15 @@ $isbweek = "1";
 
 }
 
+
 if ( $sa7 != $is1 ){
 
 $isbweek = "2";
 
 }
 
+  echo $isbweek;
+  echo "上がisbweek";
 // $sa=day
 
 if( $weekno == 1 and  $isbweek == 1 ){
@@ -151,3 +157,4 @@ if( $weekno == 5 and  $isbweek == 2 ){
 <br><p>Version 0.2:2017/09/19 Fixed bug</p>
 <br><p>Version 0.3:2017/09/19 Changed timezone to European time from Japanese Time.</p>
 <br><p>Version 0.4:2017/09/20 Yay! I finally did it!it took 4,5hour to fix it!</p>
+　
